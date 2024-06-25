@@ -1,9 +1,7 @@
-param "organization" {
-  value = "hc-emea-sentinel-demo"
+param "organization" {ß
 }
 
 param "token" {
-  value = ""
 }
 
 module "tfconfig-functions" {

@@ -17,10 +17,6 @@
 # with alias "config"
 import "tfconfig-functions" as config
 
-import "module" "tfconfig-functions" {
-  source = "git::https://github.com/hashicorp/terraform-sentinel-policies//common-functions//tfconfig-functions/tfconfig-functions.sentinel"
-}
-
 # Standard Imports
 import "http"
 import "strings"

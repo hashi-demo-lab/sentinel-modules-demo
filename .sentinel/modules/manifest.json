@@ -1,0 +1,10 @@
+{
+	"records": [
+		{
+			"key": "tfconfig-functions",
+			"source": "git::https://github.com/hashicorp/terraform-sentinel-policies.git//common-functions/tfconfig-functions/tfconfig-functions.sentinel",
+			"sourceSum": "4019d8314323547d5e3c36230758dc86f59eced65a490cd00a2b07a928f1de4e",
+			"dest": "/Users/simon.lynch/git/sentinel-modules-demo/.sentinel/modules/tfconfig-functions-4019d8314323547d5e3c36230758dc86f59eced65a490cd00a2b07a928f1de4e.sentinel"
+		}
+	]
+}
