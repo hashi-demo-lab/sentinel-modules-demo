@@ -16,7 +16,7 @@ param "token" {
 
 # https://github.com/hashicorp/terraform-guides/blob/master/governance/third-generation/common-functions/tfconfig-functions/tfconfig-functions.sentinel
 module "tfconfig-functions" {
-  source = "git::https://github.com/hashicorp/terraform-guides.git//governance/third-generation/common-functions/tfconfig-functions/tfconfig-functions.sentinel"
+  source = "git::https://github.com/hashicorp/terraform-sentinel-policies.git//common-functions/tfconfig-functions/tfconfig-functions.sentinel"
 }
 
 mock "tfconfig/v2" {
